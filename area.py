@@ -16,6 +16,9 @@ def area(r):
     a=pi*(r**2)
     return a
 
-print("area of circle:",area(27))
-print("area of square:",area(7))
+c=int(input("Input a number to find area of circle"))
+s=int(input("Input a number to find area of square"))
+
+print("area of circle:",area(c))
+print("area of square:",area(s))
 print("area of rectangle:",area(2, 3))
