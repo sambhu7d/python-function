@@ -17,8 +17,8 @@ def area(r):
     return a
 
 c=int(input("Input a number to find area of circle"))
-
+s=int(input("Input a number to find area of square"))
 
 print("area of circle:",area(c))
-print("area of square:",area(7))
+print("area of square:",area(s))
 print("area of rectangle:",area(2, 3))
