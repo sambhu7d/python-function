@@ -12,6 +12,10 @@ def area(s):
     a=s**2
     return a
 
+def area(r):
+    a=pi*(r**2)
+    return a
 
-print("are of square:",area(7))
+print("area of circle:",area(27))
+print("area of square:",area(7))
 print("area of rectangle:",area(2, 3))
